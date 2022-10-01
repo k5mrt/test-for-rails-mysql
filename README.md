@@ -3,6 +3,7 @@
 ## ゼロからRailsプロジェクト作成
 
 ```sh
+# use Docker Compose V2
 docker compose run --rm web rails new . --force --no-deps --database=mysql
 
 docker compose build
